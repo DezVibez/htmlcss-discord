@@ -42,6 +42,7 @@ purple-footer    rgb (115,137,218)
 blue-nav         rgb(50,97,224)
 button-color    
 light-grey       rgb(246,246,246) 
+footer-color
 
 */
 
@@ -138,7 +139,8 @@ section  {
     display: flex;
 }
 
-.grey-row { background-color: rgb(246,246,246);}
+.grey-row { background-color: rgb(246,246,246);
+}
 
 .flex-reverse { 
 flex-direction: row-reverse;}
@@ -170,8 +172,37 @@ height:400px;}
 
 
 
+h5 {color: rgb(115,137,218);}
+
+
+.blocco-footer {
+padding: 40px 40px;
+height: 80%;
+width: 70%;
+margin: auto
+ }
+
+ .left-column {height: 100%;
+width: 20%;
+}
 
 
 
+.right-column {height: 100%;
+width: 80%;
+}
 
+.lista-footer {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color: white;
+}
+
+li {list-style-type: none;
+margin-top: 3px;
+margin-bottom: 6px;} 
+
+.left-column, .right-column{border-bottom: solid 4px rgb(115,137,218);}
 
