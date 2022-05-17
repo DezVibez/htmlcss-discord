@@ -114,6 +114,8 @@ h1 {text-align: center;
     color: white;
 }
 
+h3 {margin-bottom: 10px;}
+
 
 
 
@@ -138,6 +140,9 @@ section  {
     height: 320px;
     display: flex;
 }
+
+.formatta-testo {
+padding: 30px;}
 
 .grey-row { background-color: rgb(246,246,246);
 }
@@ -172,7 +177,8 @@ height:400px;}
 
 
 
-h5 {color: rgb(115,137,218);}
+h5 {color: rgb(115,137,218);
+margin-bottom: 5px;}
 
 
 .blocco-footer {
@@ -213,5 +219,10 @@ height: 30px;
 justify-content: space-between;
 align-items: center;}
 
+.loghettini {color: white;
+font-size: 18px;
+margin-top: 10px;}
 
+.left-column span {color: white;}
 
+.left-column img {height: 13px;}
