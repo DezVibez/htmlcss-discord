@@ -40,7 +40,8 @@ button {
 
 purple-footer    rgb (115,137,218) 
 blue-nav         rgb(50,97,224)
-button-color     
+button-color    
+light-grey       rgb(246,246,246) 
 
 */
 
@@ -108,36 +109,39 @@ margin: 40px auto;}
 background-color: rgb(35,39,42);
 color: white;}
 
-section {
+
+
+
+section  {
+    margin: 50px auto;
     width: 70%;
     height: 300px;
-    background-color: coral;
-    padding: 20px;
-    margin: 40px 126px;
-    float: left;
+    display: flex;
 }
 
-.immagine-section { background-color: black;
-height: 100%;
-width: 50%;
-float: left;}
+.grey-row { background-color: rgb(246,246,246);}
 
-.immagine-section-central { 
-display: inline-block;
-background-color: black;
-height: 150px;
-width: 100%;
-}
+.flex-reverse { 
+flex-direction: row-reverse;}
 
-.p-section-central {
+.immagine { height: 100% ;
+width: auto;}
 
+
+
+
+
+.section-central {
 text-align: center;
-color:black;
 padding: 12px;
-margin-bottom: 20px;
-
+flex-direction: column;
+height: 630px;
 }
 
+.bottone-section-central {margin-top: 20px;
+color: white;
+background-color: rgb(115,137,218);
+align-self: center;}
 
 
 
