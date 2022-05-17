@@ -7,12 +7,10 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-
 /*Utilities*/
 
 .allineatesto {text-align: center;
 color: white;}
-
 
 .flexare {
     display: flex;
@@ -32,6 +30,7 @@ color: white;}
 button {
     background-color: white;
     border-radius: 17px;
+    border: none;
     padding: 10px;
     border-color: none;
 }
@@ -153,10 +152,6 @@ flex-direction: row-reverse;}
 .immagine { height: 100% ;
 width: auto;}
 
-
-
-
-
 .section-central {
 text-align: center;
 padding: 12px;
@@ -175,24 +170,19 @@ align-self: center;}
 footer {background-color: rgb(35,39,42);
 height:400px;}
 
-
-
 h5 {color: rgb(115,137,218);
 margin-bottom: 5px;}
-
 
 .blocco-footer {
 padding: 40px 40px;
 height: 80%;
 width: 70%;
 margin: auto
- }
-
- .left-column {height: 100%;
-width: 20%;
 }
 
-
+.left-column {height: 100%;
+width: 20%;
+}
 
 .right-column {height: 100%;
 width: 80%;
