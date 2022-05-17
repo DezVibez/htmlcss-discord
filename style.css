@@ -206,3 +206,10 @@ margin-bottom: 6px;}
 
 .left-column, .right-column{border-bottom: solid 4px rgb(115,137,218);}
 
+.footerino { 
+width: 63%;
+margin: 0 auto;
+height: 30px;
+justify-content: space-between;}
+
+
