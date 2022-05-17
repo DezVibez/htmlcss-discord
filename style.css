@@ -47,7 +47,7 @@ light-grey       rgb(246,246,246)
 
 
 
-
+/*Header*/
 
 
 header { background-image: url(img/jumbo.png);
@@ -59,13 +59,14 @@ padding-bottom: 70px;
 
 
 nav {
-width: 100%;
 height: 60px;
 background-color: rgb(37,95,232);
+align-items: center;
+
 }
 
-.flex-nav {justify-content: space-around;
-align-items: center;}
+
+
 
 
 
@@ -77,7 +78,10 @@ background-color: red;
 list-style-type: none;
 font-size: 10px;
 
+
 }
+
+
 
 .li-header {margin: 0 10px;
 color: white;}
@@ -85,12 +89,24 @@ color: white;}
 
 
 #logo {
-height: 100%;
-width: 12%;
+height: 55%;
+width: 25%;
 display: inline-block;
-background-image: url(img/logo.svg);
 background-position: 0em;
 background-repeat: no-repeat;}
+
+.links {width: 50%;
+text-align: center;
+color: white;
+font-size: 10px;}
+
+span {margin: 0 5px;}
+
+.button-nav {width: 25%;}
+
+
+
+
 
 h1 {text-align: center;
     margin-bottom: 30px;
@@ -99,17 +115,19 @@ h1 {text-align: center;
 
 
 
+
 .blocco-descrittivo { width: 50%;
 margin: 40px auto;}
 
-.container-button {margin-top:14px}
+.container-button {justify-content: space-around;
+padding: 20px 140px;}
 
-.button-scarica {margin-left: 95px;;}
-.button-apri {margin-left: 80px;
+.button-scarica {}
+.button-apri {
 background-color: rgb(35,39,42);
 color: white;}
 
-
+/*Main*/
 
 
 section  {
@@ -135,7 +153,8 @@ width: auto;}
 text-align: center;
 padding: 12px;
 flex-direction: column;
-height: 630px;
+justify-content: center;
+height: 100%;
 }
 
 .bottone-section-central {margin-top: 20px;
@@ -143,43 +162,11 @@ color: white;
 background-color: rgb(115,137,218);
 align-self: center;}
 
+/*Footer*/
+
+footer {background-color: rgb(35,39,42);}
 
 
-footer 
-
-
-
-
-#quadrato {
-    height: 50%;
-    width: 20%;
-    background-color: rgb(20, 232, 91);
-}
-
-
-.contenuto-footer-flex {
-    background-color: gray;
-    width: 60%;
-    height: 300px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid rgb(6, 119, 247);
-  
-    
-}
-
-.flex-ul-footer {
-    display: flex;
-    justify-content: space-between;}
-
-
-.ul-footer {
-
-    color: aliceblue;
-    list-style-type: none;
-}
 
 
 
