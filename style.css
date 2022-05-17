@@ -160,6 +160,16 @@ justify-content: center;
 height: 100%;
 }
 
+.bloccoh4 {background-image: url(img/stars.svg);
+margin: 0 auto;
+height: 60px;
+width: 393px;
+background-position: 342px;
+background-size:cover;
+repeat: no-repeat;}
+
+h4 {line-height: 2;}
+
 .bottone-section-central {margin-top: 20px;
 color: white;
 background-color: rgb(115,137,218);
@@ -172,7 +182,8 @@ footer {background-color: rgb(35,39,42);
 height:400px;}
 
 h5 {color: rgb(115,137,218);
-margin-bottom: 5px;}
+margin-bottom: 10px;
+margin-top: 3px;}
 
 .blocco-footer {
 padding: 40px 40px;
